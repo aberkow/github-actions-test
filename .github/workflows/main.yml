@@ -13,6 +13,5 @@ jobs:
     - with:
         node-version: '10.x'
     - name: testing actions
-      run: |
-        npm install
-        npm run build 
+    - run: npm install
+    - run: npm run build 
